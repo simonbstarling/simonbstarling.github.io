@@ -1,0 +1,83 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+.container {
+  position:relative;
+  width:100%;
+}
+h1 {
+  position:absolute;
+  top:33%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  font-size: 5vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  line-height: 1;
+  padding: 0;
+  margin: 0;
+}
+
+p{
+  position:absolute;
+  top:64%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  font-size: 2vw;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  line-height: 1;
+  padding: 0;
+  margin: 0;
+  border: 15px solid blueviolet;
+  border-radius: 35px;
+  background-color: blueviolet;
+}
+
+.line{
+  position:absolute;
+  width:100px;
+  height:5px;
+  bottom:42%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  font-size: 2vw;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  line-height: 0;
+  padding: 0;
+  margin: 0;
+  background-color: blueviolet;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color:white;
+}
+
+a:hover {
+  color:white;
+  font-weight: bold;
+}
+
+a:active {
+  color:white;
+  font-weight: bold;
+}
